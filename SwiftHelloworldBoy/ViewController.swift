@@ -13,6 +13,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let localvar = "HelloWorld"
+        
+        
+        print(Constants.someValueConstans) //OP:HELLOWORLD Struct
+        
+        print(localvar) //OP:Helloworld Two
     }
 
     override func didReceiveMemoryWarning() {

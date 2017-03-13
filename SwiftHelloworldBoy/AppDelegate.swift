@@ -7,6 +7,10 @@
 //
 
 import UIKit
+struct Constants{
+    
+    static let someValueConstans = "HELLO WORLD"
+}
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
